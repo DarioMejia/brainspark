@@ -12,6 +12,13 @@ import avatar from './avatar.jpg';
 import avatar2 from './avatar2.jpg';
 import avatar3 from './avatar3.png';
 import avatar4 from './avatar4.jpg';
+import product1 from './product1.jpg';
+import product2 from './product2.jpg';
+import product3 from './product3.jpg';
+import product4 from './product4.jpg';
+import product5 from './product5.jpg';
+import product6 from './product6.jpg';
+import product7 from './product7.jpg';
 
 export const gridOrderStatus = (props) => (
   <button
@@ -949,6 +956,8 @@ export const ordersData = [
     Location: 'USA',
     Status: 'pending',
     StatusBg: '#FB9678',
+    ProductImage:
+      product6,
   },
   {
     OrderID: 345653,
@@ -958,6 +967,8 @@ export const ordersData = [
     Location: 'DE',
     Status: 'complete',
     StatusBg: '#8BE78B',
+    ProductImage:
+      product5,
   },
   {
     OrderID: 390457,
@@ -967,6 +978,8 @@ export const ordersData = [
     Location: 'BR',
     Status: 'active',
     StatusBg: '#03C9D7',
+    ProductImage:
+      product7,
   },
   {
     OrderID: 893486,
@@ -976,6 +989,8 @@ export const ordersData = [
     Location: 'DE',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
+    ProductImage:
+      product4,
   },
   {
     OrderID: 748975,
@@ -985,6 +1000,8 @@ export const ordersData = [
     Location: 'ARG',
     Status: 'rejected',
     StatusBg: 'red',
+    ProductImage:
+    product1,
   },
   {
     OrderID: 94757,
@@ -994,6 +1011,8 @@ export const ordersData = [
     Location: 'USA',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
+    ProductImage:
+      product2,
   },
   {
     OrderID: 944895,
@@ -1003,6 +1022,8 @@ export const ordersData = [
     Location: 'DE',
     Status: 'active',
     StatusBg: '#03C9D7',
+    ProductImage:
+      product3,
   },
   {
     OrderID: 845954,
@@ -1012,6 +1033,8 @@ export const ordersData = [
     Location: 'CU',
     Status: 'complete',
     StatusBg: '#8BE78B',
+    ProductImage:
+      product4,
   },
   {
     OrderID: 845954,
@@ -1021,6 +1044,8 @@ export const ordersData = [
     Location: 'AFG',
     Status: 'pending',
     StatusBg: '#FB9678',
+    ProductImage:
+      'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
     OrderID: 874534,
@@ -1030,6 +1055,8 @@ export const ordersData = [
     Location: 'USA',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
+    ProductImage:
+      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
     OrderID: 38489,
@@ -1039,6 +1066,8 @@ export const ordersData = [
     Location: 'USA',
     Status: 'active',
     StatusBg: '#03C9D7',
+    ProductImage:
+      'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
     OrderID: 24546,
@@ -1048,6 +1077,8 @@ export const ordersData = [
     Location: 'FR',
     Status: 'complete',
     StatusBg: '#8BE78B',
+    ProductImage:
+      'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
     OrderID: 874534,
@@ -1057,6 +1088,8 @@ export const ordersData = [
     Location: 'USA',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
+    ProductImage:
+      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
     OrderID: 10248,
@@ -1067,6 +1100,8 @@ export const ordersData = [
     Location: 'COL',
     Status: 'pending',
     StatusBg: '#FB9678',
+    ProductImage:
+      product6,
   },
   {
     OrderID: 345653,
@@ -1076,6 +1111,8 @@ export const ordersData = [
     Location: 'COL',
     Status: 'complete',
     StatusBg: '#8BE78B',
+    ProductImage:
+      product5,
   },
 ];
 
