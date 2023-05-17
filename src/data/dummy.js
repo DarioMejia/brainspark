@@ -30,20 +30,20 @@ export const gridOrderStatus = (props) => (
 );
 
 export const kanbanGrid = [
-  { headerText: 'To Do',
+  { headerText: 'Por hacer',
     keyField: 'Abierta',
     allowToggle: true },
 
-  { headerText: 'In Progress',
+  { headerText: 'En progreso',
     keyField: 'En curso',
     allowToggle: true },
 
-  { headerText: 'Testing',
+  { headerText: 'Prueba',
     keyField: 'Testing',
     allowToggle: true,
     isExpanded: false },
 
-  { headerText: 'Done',
+  { headerText: 'Hecho',
     keyField: 'Close',
     allowToggle: true },
 ];
@@ -1117,23 +1117,23 @@ export const ordersData = [
 export const scheduleData = [
   {
     Id: 1,
-    Subject: 'Explosion of Betelgeuse Star',
-    Location: 'Space Center USA',
+    Subject: 'WebConnect: Encuentro de Marketing Digital',
+    Location: 'Barranquilla',
     StartTime: '2021-01-10T04:00:00.000Z',
     EndTime: '2021-01-10T05:30:00.000Z',
     CategoryColor: '#1aaa55',
   },
   {
     Id: 2,
-    Subject: 'Thule Air Crash Report',
-    Location: 'Newyork City',
+    Subject: 'Estrategias Online: Reunión de Expertos en Marketing Web',
+    Location: 'Barranquilla',
     StartTime: '2021-01-11T06:30:00.000Z',
     EndTime: '2021-01-11T08:30:00.000Z',
     CategoryColor: '#357cd2',
   },
   {
     Id: 3,
-    Subject: 'Blue Moon Eclipse',
+    Subject: 'DigitalMinds: Congreso de Marketing Online',
     Location: 'Space Center USA',
     StartTime: '2021-01-12T04:00:00.000Z',
     EndTime: '2021-01-12T05:30:00.000Z',
@@ -1157,10 +1157,10 @@ export const scheduleData = [
   },
   {
     Id: 6,
-    Subject: 'Mysteries of Bermuda Triangle',
-    Location: 'Bermuda',
-    StartTime: '2021-01-14T04:00:00.000Z',
-    EndTime: '2021-01-14T05:30:00.000Z',
+    Subject: 'Conferencia WebPower: Tendencias en Marketing Online',
+    Location: 'Cartagena',
+    StartTime: '2023-01-14T04:00:00.000Z',
+    EndTime: '2023-01-14T05:30:00.000Z',
     CategoryColor: '#f57f17',
   },
   {
@@ -1173,8 +1173,8 @@ export const scheduleData = [
   },
   {
     Id: 8,
-    Subject: 'Life on Mars',
-    Location: 'Space Center USA',
+    Subject: 'Conferencia WebPower: Tendencias en Marketing Online',
+    Location: 'Santa marta',
     StartTime: '2021-01-16T03:30:00.000Z',
     EndTime: '2021-01-16T04:30:00.000Z',
     CategoryColor: '#357cd2',
@@ -1245,7 +1245,7 @@ export const scheduleData = [
   },
   {
     Id: 17,
-    Subject: 'The Cycle of Seasons',
+    Subject: 'Estrategias Online: Reunión de Expertos en Marketing Web',
     Location: 'Research Center of USA',
     StartTime: '2021-01-11T00:00:00.000Z',
     EndTime: '2021-01-11T02:00:00.000Z',
@@ -1261,10 +1261,10 @@ export const scheduleData = [
   },
   {
     Id: 19,
-    Subject: 'Lifecycle of Bumblebee',
-    Location: 'San Fransisco',
-    StartTime: '2021-01-14T00:30:00.000Z',
-    EndTime: '2021-01-14T02:00:00.000Z',
+    Subject: 'Innovación Digital: Encuentro de Profesionales del Marketing Web',
+    Location: 'Barranquilla',
+    StartTime: '2023-01-14T00:30:00.000Z',
+    EndTime: '2023-01-14T02:00:00.000Z',
     CategoryColor: '#7fa900',
   },
   {
