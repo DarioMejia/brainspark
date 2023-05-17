@@ -50,29 +50,29 @@ export const kanbanGrid = [
 
 const gridEmployeeProfile = (props) => (
   <div className="items-center">
-    <p>{props.Name}</p>
+    <p>{props.employee}</p>
   </div>
 );
 
 const gridEmployeeCountry = (props) => (
   <div className="flex items-center justify-center gap-2">
     <GrLocation />
-    <span>{props.Country}</span>
+    <span>{props.country}</span>
   </div>
 );
 
 const customerGridImage = (props) => (
   <div className="gap-4">
     <div>
-      <p>{props.CustomerName}</p>
-      <p>{props.CustomerEmail}</p>
+      <p>{props.client}</p>
+      <p>{props.email}</p>
     </div>
   </div>
 );
 
 const customerGridStatus = (props) => (
   <div className="gap-2 justify-center items-center text-gray-700 capitalize">
-    <p>{props.Status}</p>
+    <p>{props.status}</p>
   </div>
 );
 
@@ -280,32 +280,31 @@ export const LinePrimaryYAxis = {
 };
 
 export const customersGrid = [
-  { type: 'checkbox', width: '50' },
   { headerText: 'Name',
     width: '130',
     template: customerGridImage,
     textAlign: 'Center' },
-  { field: 'ProjectName',
+  { field: 'projectName',
     headerText: 'Project Name',
     width: '150',
     textAlign: 'Center' },
-  { field: 'Status',
+  { field: 'status',
     headerText: 'Status',
     width: '130',
     format: 'yMd',
     textAlign: 'Center',
     template: customerGridStatus },
-  { field: 'Weeks',
+  { field: 'weeks',
     headerText: 'Weeks',
     width: '100',
     format: 'C2',
     textAlign: 'Center' },
-  { field: 'Budget',
+  { field: 'budget',
     headerText: 'Budget',
     width: '100',
     format: 'yMd',
     textAlign: 'Center' },
-  { field: 'Location',
+  { field: 'location',
     headerText: 'Location',
     width: '150',
     textAlign: 'Center' },
@@ -316,7 +315,7 @@ export const employeesGrid = [
     width: '120',
     template: gridEmployeeProfile,
     textAlign: 'Center' },
-  { field: 'Title',
+  { field: 'role',
     headerText: 'Role',
     width: '170',
     textAlign: 'Center' },
@@ -324,12 +323,12 @@ export const employeesGrid = [
     width: '120',
     textAlign: 'Center',
     template: gridEmployeeCountry },
-  { field: 'HireDate',
+  { field: 'hireDate',
     headerText: 'Hire Date',
     width: '135',
     format: 'yMd',
     textAlign: 'Center' },
-  { field: 'ReportsTo',
+  { field: 'supervisor',
     headerText: 'Supervisor',
     width: '120',
     textAlign: 'Center' },
@@ -552,28 +551,27 @@ export const userProfileData = [
 ];
 
 export const ordersGrid = [
-  { field: 'CustomerName',
-    headerText: 'Customer Name',
+  { field: 'name',
+    headerText: 'Name',
     width: '150',
     textAlign: 'Center',
   },
   {
-    headerText: 'Status',
-    template: gridOrderStatus,
-    field: 'OrderItems',
+    headerText: 'General Info',
+    field: 'info',
     textAlign: 'Center',
     width: '120',
   },
   {
-    field: 'OrderID',
-    headerText: 'Order ID',
+    field: 'contact',
+    headerText: 'Contact Info',
     width: '120',
     textAlign: 'Center',
   },
 
   {
-    field: 'Location',
-    headerText: 'Location',
+    field: 'comment',
+    headerText: 'Comment',
     width: '150',
     textAlign: 'Center',
   },
